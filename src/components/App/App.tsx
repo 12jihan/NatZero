@@ -2,13 +2,16 @@ import { Outlet } from "react-router";
 import type { ReactElement } from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import SideBar from "../SideBar/SideBar";
 
 function App(): ReactElement {
   return (
     <>
       <Navbar />
       <div className="main-content">
-        <nav className="side-nav"></nav>
+        <nav className="side-nav">
+          <SideBar />
+        </nav>
         <main className="main">
           <Outlet />
         </main>

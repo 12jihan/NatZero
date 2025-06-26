@@ -17,16 +17,14 @@ html {
 .main-content {
   display: flex;
   flex-direction: row;
-  height: 100%;
+  width: 100%;
 
   .side-nav {
-    background-color: red;
     width: 10rem;
-    height: 100vh;
+    height: calc(100vh - (3.5rem * 2));
   }
 
   .main {
-    background-color: pink;
     display: flex;
     flex-direction: column;
     width: 100%;
