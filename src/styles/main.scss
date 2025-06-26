@@ -1,0 +1,52 @@
+@use "abstracts" as *;
+@use "base";
+@use "components";
+@use "layouts";
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html {
+  background-color: color("primary");
+  color: color("light");
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  .side-nav {
+    background-color: red;
+    width: 10rem;
+    height: 100vh;
+  }
+
+  .main {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+/* Style the main page scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Width of vertical scrollbar */
+  height: 5px; /* Height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: color("lime"); /* Scrollbar handle color */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darker("lime", 5); /* Lighter pink on hover */
+}
+
+// ::-webkit-scrollbar-corner {
+//   background: color("lime"); /* Corner where scrollbars meet */
+// }
