@@ -2,7 +2,7 @@ import { Outlet } from "react-router";
 import type { ReactElement } from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import SideBar from "../SideBar/SideBar";
+
 
 function App(): ReactElement {
   return (

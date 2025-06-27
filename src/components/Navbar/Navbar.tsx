@@ -14,6 +14,10 @@ function Navbar(): ReactElement {
       name: "home",
       route: "/",
     },
+    {
+      name: "login",
+      route: "/login",
+    },
   ];
 
   // const [navState, setNavState] = useState<boolean>(true);
