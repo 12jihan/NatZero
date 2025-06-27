@@ -84,3 +84,16 @@
     justify-content: space-between;
   }
 }
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(93, 64, 55, 0.2);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}

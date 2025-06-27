@@ -9,9 +9,9 @@ function App(): ReactElement {
     <>
       <Navbar />
       <div className="main-content">
-        <nav className="side-nav">
-          <SideBar />
-        </nav>
+        {/* <nav className="side-nav"> */}
+        {/*   <SideBar /> */}
+        {/* </nav> */}
         <main className="main">
           <Outlet />
         </main>

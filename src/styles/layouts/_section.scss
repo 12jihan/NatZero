@@ -4,23 +4,23 @@
 @use "sass:color";
 
 .section-header-left {
-  margin-bottom: 1.6rem;
+  // margin-bottom: 1.6rem;
   text-align: center;
-  color: color("lime");
+  color: color("dark");
   text-align: left;
 }
 
 .section-header-center {
-  color: color("lime");
+  color: color("dark");
   margin-bottom: 1.8rem;
-  text-decoration-line: underline;
-  text-underline-offset: 0.4rem;
+  // text-decoration-line: underline;
+  // text-underline-offset: 0.4rem;
   text-align: center;
 }
 
 .section-header-right {
   margin-bottom: 1.6rem;
-  color: color("lime");
+  color: color("dark");
   text-align: right;
 }
 
@@ -33,6 +33,20 @@
   align-items: center;
 }
 
+.stat-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  text-align: center;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  text-align: center;
+}
 // .container-center {
 //   display: flex;
 //   flex-direction: column;
